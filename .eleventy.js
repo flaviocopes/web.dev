@@ -67,10 +67,10 @@ module.exports = function(config) {
   //----------------------------------------------------------------------------
   // MARKDOWN
   //----------------------------------------------------------------------------
-  let markdownItOptions = {
+  const markdownItOptions = {
     html: true,
   };
-  let markdownItAnchorOptions = {
+  const markdownItAnchorOptions = {
     level: 2,
     permalink: true,
     permalinkClass: 'w-headline-link',
